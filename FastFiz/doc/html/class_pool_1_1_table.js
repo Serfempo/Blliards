@@ -1,0 +1,48 @@
+var class_pool_1_1_table =
+[
+    [ "BoundaryId", "class_pool_1_1_table.html#a7e4fbe3c958e8b46d4a03302945e5e68", [
+      [ "SW_POCKET", "class_pool_1_1_table.html#a7e4fbe3c958e8b46d4a03302945e5e68ac10dcfe9e1f91f94b27cf3541f646672", null ],
+      [ "SW_RAIL", "class_pool_1_1_table.html#a7e4fbe3c958e8b46d4a03302945e5e68a398d7963615fbe843a0cf9601354bec2", null ],
+      [ "W_POCKET", "class_pool_1_1_table.html#a7e4fbe3c958e8b46d4a03302945e5e68ab7153b6bde01e19efee906917dfacbdd", null ],
+      [ "NW_RAIL", "class_pool_1_1_table.html#a7e4fbe3c958e8b46d4a03302945e5e68a39efc72a0358d1186d6c0c04f17d13e1", null ],
+      [ "NW_POCKET", "class_pool_1_1_table.html#a7e4fbe3c958e8b46d4a03302945e5e68a491e11c541471c3d04c942e61dc6ffd1", null ],
+      [ "N_RAIL", "class_pool_1_1_table.html#a7e4fbe3c958e8b46d4a03302945e5e68a4ce40ce892818dc86a17ca65b4d9e0b1", null ],
+      [ "NE_POCKET", "class_pool_1_1_table.html#a7e4fbe3c958e8b46d4a03302945e5e68ae5b72adc4fb7b36e784cce1fadd11390", null ],
+      [ "NE_RAIL", "class_pool_1_1_table.html#a7e4fbe3c958e8b46d4a03302945e5e68a424db8cc122339ced21c1935db3aa4ea", null ],
+      [ "E_POCKET", "class_pool_1_1_table.html#a7e4fbe3c958e8b46d4a03302945e5e68a69f58f627071d0362f75be5cf3f5211b", null ],
+      [ "SE_RAIL", "class_pool_1_1_table.html#a7e4fbe3c958e8b46d4a03302945e5e68ad5fb6d94f00037614cfe313a3d59e721", null ],
+      [ "SE_POCKET", "class_pool_1_1_table.html#a7e4fbe3c958e8b46d4a03302945e5e68a64122e48045f1cf0d5952d12517b181b", null ],
+      [ "S_RAIL", "class_pool_1_1_table.html#a7e4fbe3c958e8b46d4a03302945e5e68a5d4e1b61f8876bb8b88eab89a658a791", null ],
+      [ "UNKNOWN_BOUNDARY", "class_pool_1_1_table.html#a7e4fbe3c958e8b46d4a03302945e5e68a8512b62b54ee6953c54e9833df209493", null ]
+    ] ],
+    [ "Pocket", "class_pool_1_1_table.html#a99c9c535a214343a7693bb30ce5c6882", [
+      [ "SW", "class_pool_1_1_table.html#a99c9c535a214343a7693bb30ce5c6882a24dfb07814f143fbba116ba39b63bad1", null ],
+      [ "W", "class_pool_1_1_table.html#a99c9c535a214343a7693bb30ce5c6882ab7c5b9217844da7291253aa831f19088", null ],
+      [ "NW", "class_pool_1_1_table.html#a99c9c535a214343a7693bb30ce5c6882aadc38d1f455327f7a1cc7689e4e73314", null ],
+      [ "NE", "class_pool_1_1_table.html#a99c9c535a214343a7693bb30ce5c6882abca2ae03297a063f140fbe6868edbc15", null ],
+      [ "E", "class_pool_1_1_table.html#a99c9c535a214343a7693bb30ce5c6882a7bf14fcd80fc195c216f3f1e924e717c", null ],
+      [ "SE", "class_pool_1_1_table.html#a99c9c535a214343a7693bb30ce5c6882a6a0bb89ac8435cc04de22a799a282a3d", null ],
+      [ "UNKNOWN_POCKET", "class_pool_1_1_table.html#a99c9c535a214343a7693bb30ce5c6882a7b08a7d752733451e6a9befddc7c0637", null ]
+    ] ],
+    [ "Table", "class_pool_1_1_table.html#acfa3480f65bbf069ba23989acb6f615e", null ],
+    [ "Table", "class_pool_1_1_table.html#af49c181bb289c4945a2c94a0acec45b8", null ],
+    [ "Table", "class_pool_1_1_table.html#aef414c1055eb15e7586e3a24dcabab3c", null ],
+    [ "getCueLength", "class_pool_1_1_table.html#a43da0455e86374cc02240249a5836a2a", null ],
+    [ "getFootSpot", "class_pool_1_1_table.html#adb3d7a5a9b86da5377580894c3123564", null ],
+    [ "getHeadString", "class_pool_1_1_table.html#a155b440acee68d620cd7df7e92c47f51", null ],
+    [ "getLength", "class_pool_1_1_table.html#ae6876d25a6580f0d4a728b41f76e02a1", null ],
+    [ "getMuRolling", "class_pool_1_1_table.html#a3cd7e50d066dd5b11fb1e4f85ad2cd50", null ],
+    [ "getMuSliding", "class_pool_1_1_table.html#af1db2848fa902c2effc2cc4bdc7e58e5", null ],
+    [ "getMuSpinning", "class_pool_1_1_table.html#a7033571d6fbeccc32f6a3ede543981f5", null ],
+    [ "getPocketCenter", "class_pool_1_1_table.html#a8d9c22a0c5b317ecc952cfb437b6a127", null ],
+    [ "getPocketLeft", "class_pool_1_1_table.html#ab0f21ab95842e15a3bddf0e0b5e6d657", null ],
+    [ "getPocketRight", "class_pool_1_1_table.html#aa466d2e67b08b02df5ad717fb568d009", null ],
+    [ "getRailHeight", "class_pool_1_1_table.html#a4b795d35d26630bd54128e1b58d99a18", null ],
+    [ "getWidth", "class_pool_1_1_table.html#a8e92f64c40baba21fb1cc52a12b38464", null ],
+    [ "operator=", "class_pool_1_1_table.html#a2b495e652e10dfea6296679c2ba5452b", null ],
+    [ "setCueLength", "class_pool_1_1_table.html#a7b4cfe4d818cb9a722c8fde3b16d8413", null ],
+    [ "setMuRolling", "class_pool_1_1_table.html#a8908bee781b65ef2d32405a4e65c193d", null ],
+    [ "setMuSliding", "class_pool_1_1_table.html#ab4d283c201bdf2a7c197a5a548afe616", null ],
+    [ "setMuSpinning", "class_pool_1_1_table.html#a2a207446e3a4035adb9320c2b4850371", null ],
+    [ "setRailHeight", "class_pool_1_1_table.html#af22ab68b19dd691eb8c286e64003b3b6", null ]
+];

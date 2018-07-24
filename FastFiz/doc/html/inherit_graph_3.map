@@ -1,0 +1,8 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_pool_1_1_event.html" title="Base class of the Event heirarchy. " alt="" coords="5,107,99,133"/>
+<area shape="rect" id="node2" href="$class_pool_1_1_ball_collision_event.html" title="An event involving two balls colliding. " alt="" coords="151,5,319,32"/>
+<area shape="rect" id="node3" href="$class_pool_1_1_cue_strike_event.html" title="The initial event in any shot – cue ball struck by the cue stick. " alt="" coords="158,56,313,83"/>
+<area shape="rect" id="node4" href="$class_pool_1_1_pocketed_event.html" title="An event involving a ball entering a pocket. " alt="" coords="159,107,311,133"/>
+<area shape="rect" id="node5" href="$class_pool_1_1_rail_collision_event.html" title="An event involving a ball colliding with a rail. " alt="" coords="152,157,319,184"/>
+<area shape="rect" id="node6" href="$class_pool_1_1_state_change_event.html" title="An event invloving a physical transition of state, e.g between SLIDING and ROLLING. " alt="" coords="147,208,324,235"/>
+</map>

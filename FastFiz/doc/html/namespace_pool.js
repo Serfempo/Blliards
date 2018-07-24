@@ -1,0 +1,27 @@
+var namespace_pool =
+[
+    [ "AIBase", "class_pool_1_1_a_i_base.html", "class_pool_1_1_a_i_base" ],
+    [ "BadShotException", "class_pool_1_1_bad_shot_exception.html", "class_pool_1_1_bad_shot_exception" ],
+    [ "Ball", "class_pool_1_1_ball.html", "class_pool_1_1_ball" ],
+    [ "BallCollisionEvent", "class_pool_1_1_ball_collision_event.html", "class_pool_1_1_ball_collision_event" ],
+    [ "CueStrikeEvent", "class_pool_1_1_cue_strike_event.html", "class_pool_1_1_cue_strike_event" ],
+    [ "EightBallState", "class_pool_1_1_eight_ball_state.html", "class_pool_1_1_eight_ball_state" ],
+    [ "Event", "class_pool_1_1_event.html", "class_pool_1_1_event" ],
+    [ "GameShot", "struct_pool_1_1_game_shot.html", "struct_pool_1_1_game_shot" ],
+    [ "GameState", "class_pool_1_1_game_state.html", "class_pool_1_1_game_state" ],
+    [ "GaussianNoise", "class_pool_1_1_gaussian_noise.html", "class_pool_1_1_gaussian_noise" ],
+    [ "LogWriter", "class_pool_1_1_log_writer.html", "class_pool_1_1_log_writer" ],
+    [ "NineBallState", "class_pool_1_1_nine_ball_state.html", "class_pool_1_1_nine_ball_state" ],
+    [ "Noise", "class_pool_1_1_noise.html", "class_pool_1_1_noise" ],
+    [ "NoNoise", "class_pool_1_1_no_noise.html", "class_pool_1_1_no_noise" ],
+    [ "PocketedEvent", "class_pool_1_1_pocketed_event.html", "class_pool_1_1_pocketed_event" ],
+    [ "Point", "struct_pool_1_1_point.html", "struct_pool_1_1_point" ],
+    [ "RailCollisionEvent", "class_pool_1_1_rail_collision_event.html", "class_pool_1_1_rail_collision_event" ],
+    [ "Shot", "class_pool_1_1_shot.html", "class_pool_1_1_shot" ],
+    [ "ShotParams", "struct_pool_1_1_shot_params.html", "struct_pool_1_1_shot_params" ],
+    [ "StateChangeEvent", "class_pool_1_1_state_change_event.html", "class_pool_1_1_state_change_event" ],
+    [ "Table", "class_pool_1_1_table.html", "class_pool_1_1_table" ],
+    [ "TableState", "class_pool_1_1_table_state.html", "class_pool_1_1_table_state" ],
+    [ "Utils", "class_pool_1_1_utils.html", "class_pool_1_1_utils" ],
+    [ "Vector", "struct_pool_1_1_vector.html", "struct_pool_1_1_vector" ]
+];

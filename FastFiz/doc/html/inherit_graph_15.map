@@ -1,0 +1,8 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_stopwatch.html" title="Utility class heirarchy to measure time in various ways. " alt="" coords="5,81,95,108"/>
+<area shape="rect" id="node2" href="$class_timeval_stopwatch.html" title="A stopwatch that measures in actual seconds, but not necessarily wall time. " alt="" coords="143,31,281,57"/>
+<area shape="rect" id="node5" href="$class_virtual_stopwatch.html" title="A stopwatch measuring virtual time kept in a static counter. " alt="" coords="147,81,277,108"/>
+<area shape="rect" id="node6" href="$class_virtual_stopwatch2.html" title="A stopwatch measuring virtual time kept in a static counter. " alt="" coords="143,132,281,159"/>
+<area shape="rect" id="node3" href="$class_c_p_u_stopwatch.html" title="A stopwatch that measures in CPU time (ignoring time spent by system or other processes) ..." alt="" coords="345,5,461,32"/>
+<area shape="rect" id="node4" href="$class_real_time_stopwatch.html" title="A stopwatch that measures wall time. " alt="" coords="329,56,476,83"/>
+</map>

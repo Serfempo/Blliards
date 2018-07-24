@@ -1,0 +1,7 @@
+<map id="Stopwatch" name="Stopwatch">
+<area shape="rect" id="node2" href="$class_timeval_stopwatch.html" title="A stopwatch that measures in actual seconds, but not necessarily wall time. " alt="" coords="71,80,210,107"/>
+<area shape="rect" id="node5" href="$class_virtual_stopwatch.html" title="A stopwatch measuring virtual time kept in a static counter. " alt="" coords="234,80,365,107"/>
+<area shape="rect" id="node6" href="$class_virtual_stopwatch2.html" title="A stopwatch measuring virtual time kept in a static counter. " alt="" coords="389,80,527,107"/>
+<area shape="rect" id="node3" href="$class_c_p_u_stopwatch.html" title="A stopwatch that measures in CPU time (ignoring time spent by system or other processes) ..." alt="" coords="5,155,121,181"/>
+<area shape="rect" id="node4" href="$class_real_time_stopwatch.html" title="A stopwatch that measures wall time. " alt="" coords="146,155,293,181"/>
+</map>

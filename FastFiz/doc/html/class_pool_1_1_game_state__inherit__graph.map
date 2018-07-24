@@ -1,0 +1,4 @@
+<map id="Pool::GameState" name="Pool::GameState">
+<area shape="rect" id="node2" href="$class_pool_1_1_eight_ball_state.html" title="Implementation of the rules of Eight&#45;Ball. " alt="" coords="5,80,152,107"/>
+<area shape="rect" id="node3" href="$class_pool_1_1_nine_ball_state.html" title="Implementation of the rules of Nine&#45;Ball. " alt="" coords="176,80,320,107"/>
+</map>

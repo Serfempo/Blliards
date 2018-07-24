@@ -1,0 +1,4 @@
+<map id="Pool::Noise" name="Pool::Noise">
+<area shape="rect" id="node2" href="$class_pool_1_1_gaussian_noise.html" title="Class implementing Gaussian noise. " alt="" coords="5,80,157,107"/>
+<area shape="rect" id="node3" href="$class_pool_1_1_no_noise.html" title="Trivial class implementing null noise. " alt="" coords="182,80,293,107"/>
+</map>

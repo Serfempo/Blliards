@@ -1,0 +1,5 @@
+<map id="TimevalStopwatch" name="TimevalStopwatch">
+<area shape="rect" id="node3" href="$class_c_p_u_stopwatch.html" title="A stopwatch that measures in CPU time (ignoring time spent by system or other processes) ..." alt="" coords="5,155,121,181"/>
+<area shape="rect" id="node4" href="$class_real_time_stopwatch.html" title="A stopwatch that measures wall time. " alt="" coords="146,155,293,181"/>
+<area shape="rect" id="node2" href="$class_stopwatch.html" title="Utility class heirarchy to measure time in various ways. " alt="" coords="96,5,185,32"/>
+</map>

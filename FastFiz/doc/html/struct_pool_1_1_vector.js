@@ -1,0 +1,25 @@
+var struct_pool_1_1_vector =
+[
+    [ "Vector", "struct_pool_1_1_vector.html#a5f17ffd8a8fc343ce9c792256b31fed7", null ],
+    [ "Vector", "struct_pool_1_1_vector.html#af86fb2ea5d1868a432b0710b5e3bef0d", null ],
+    [ "Vector", "struct_pool_1_1_vector.html#aa7d081102771a91a15c7fcd8243a5ec8", null ],
+    [ "cross", "struct_pool_1_1_vector.html#a9b8a5e7b0e365e8278cf85f623dce00d", null ],
+    [ "dot", "struct_pool_1_1_vector.html#a8611f4c37de6f5804ed26cd05e353537", null ],
+    [ "fromStream", "struct_pool_1_1_vector.html#ab2153a95b7f3a7f6f6c332399a2f56cd", null ],
+    [ "fromString", "struct_pool_1_1_vector.html#a6a6e032c0abde2ac713e715361c05197", null ],
+    [ "mag", "struct_pool_1_1_vector.html#ac4194ef0e0cc781a338fbcdcd5d3d1a7", null ],
+    [ "norm", "struct_pool_1_1_vector.html#a4a00d5fa922c408bc8efcbe4b972d433", null ],
+    [ "operator*", "struct_pool_1_1_vector.html#aa5b0f773aacd6e58e408c19978d78573", null ],
+    [ "operator*=", "struct_pool_1_1_vector.html#a75097e33c6d32e93de7e97747b8a4ad8", null ],
+    [ "operator+", "struct_pool_1_1_vector.html#a056f7c6805473e5912e30ddda80bb409", null ],
+    [ "operator-", "struct_pool_1_1_vector.html#a1a86dc70ecad50d806b3b861fbceb764", null ],
+    [ "rotate", "struct_pool_1_1_vector.html#a466d429f69de616dae6397c9e6da9dfc", null ],
+    [ "rotateDeg", "struct_pool_1_1_vector.html#ae40dff651c45c270a9313b3d99f9c935", null ],
+    [ "rotateRad", "struct_pool_1_1_vector.html#a3d1e5af6a8a7eac5335961161ae1230c", null ],
+    [ "to_p", "struct_pool_1_1_vector.html#aff3fb6c16f157309e5dc48ed13207fdd", null ],
+    [ "toStream", "struct_pool_1_1_vector.html#a4792bf4c5555d29fe4635c0b8d5fbaf2", null ],
+    [ "toString", "struct_pool_1_1_vector.html#a320707bf20f27ae8856792a3c7eb07e0", null ],
+    [ "x", "struct_pool_1_1_vector.html#a93dc85a31b52b06d10aad27b5992971f", null ],
+    [ "y", "struct_pool_1_1_vector.html#af97cccf42c566a542017bfd510e97d1d", null ],
+    [ "z", "struct_pool_1_1_vector.html#aed610685de1b0c7bfe9a5150ef3e034a", null ]
+];

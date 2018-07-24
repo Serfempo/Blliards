@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_pool_1_1_noise.html" title="Base Noise class for implementing a generic type of noise. " alt="" coords="5,31,99,57"/>
+<area shape="rect" id="node2" href="$class_pool_1_1_gaussian_noise.html" title="Class implementing Gaussian noise. " alt="" coords="147,5,299,32"/>
+<area shape="rect" id="node3" href="$class_pool_1_1_no_noise.html" title="Trivial class implementing null noise. " alt="" coords="167,56,278,83"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_pool_1_1_game_state.html" title="This defines most of the information and functions necessary about the state of a game..." alt="" coords="5,31,136,57"/>
+<area shape="rect" id="node2" href="$class_pool_1_1_eight_ball_state.html" title="Implementation of the rules of Eight&#45;Ball. " alt="" coords="184,5,331,32"/>
+<area shape="rect" id="node3" href="$class_pool_1_1_nine_ball_state.html" title="Implementation of the rules of Nine&#45;Ball. " alt="" coords="185,56,329,83"/>
+</map>

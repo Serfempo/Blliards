@@ -1,0 +1,4 @@
+<map id="RealTimeStopwatch" name="RealTimeStopwatch">
+<area shape="rect" id="node2" href="$class_timeval_stopwatch.html" title="A stopwatch that measures in actual seconds, but not necessarily wall time. " alt="" coords="9,80,148,107"/>
+<area shape="rect" id="node3" href="$class_stopwatch.html" title="Utility class heirarchy to measure time in various ways. " alt="" coords="34,5,123,32"/>
+</map>

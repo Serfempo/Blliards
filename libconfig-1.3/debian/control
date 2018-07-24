@@ -1,0 +1,38 @@
+Source: libconfigduo2
+Priority: extra
+Maintainer: Klaus Schneider <kschn@users.sourceforge.net>
+Build-Depends: debhelper (>= 5), autotools-dev, texinfo
+Standards-Version: 3.7.2
+Section: libs
+
+Package: libconfigduo2-dev
+Section: libdevel
+Architecture: any
+Depends: libconfigduo2 (= ${Source-Version})
+Description: A library for processing configuration files, developement files
+
+Package: libconfigduo2
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}
+Conflicts: libconfigduo, libconfig
+Description: A library for processing configuration files
+ Libconfig is a library for reading, manipulating, and writing structured
+ configuration files. The library features a fully reentrant parser and 
+ includes bindings for both the C and C++ programming languages.
+ .
+ There are several open-source configuration file libraries available as of
+ this writing. This library was written because each of those libraries falls 
+ short in one or more ways. The main features of libconfig that set it apart 
+ from the other libraries are:
+ .
+ * A fully reentrant parser. Independent configurations can be parsed in
+   concurrent threads at the same time.
+ * Both C and C++ bindings, as well as hooks to allow for the creation of
+   wrappers in other languages.
+ * A simple, structured configuration file format that is more readable and
+   compact than XML and more flexible than the obsolete but prevalent 
+   Windows INI file format.
+ * A low-footprint implementation (just 38K for the C library and 66K 
+   for the C++ library) that is suitable for memory-constrained systems.
+ * Proper documentation.
