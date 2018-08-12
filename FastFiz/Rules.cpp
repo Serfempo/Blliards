@@ -107,7 +107,7 @@ void GameState::toStream(ostream & out) const
 //////////////////////////////////////////////////////////
 ShotResult GameState::executeShot(const GameShot& shot, Shot **shotObj) {
   _switchedSides=false;
-  cerr << "Trying to execute shot." << endl;
+  //cerr << "Trying to execute shot." << endl;
   
   if (shot.timeSpent && _timeLeft) {
     _timeLeft-=shot.timeSpent;
@@ -117,7 +117,7 @@ ShotResult GameState::executeShot(const GameShot& shot, Shot **shotObj) {
   }
   
   PreProcessCode code = preProcess(shot);
-	cerr << "Past preProcess, value was: " << code << endl;
+	//cerr << "Past preProcess, value was: " << code << endl;
   
   if (code == PPC_BADPARAMS) return SR_BAD_PARAMS;
   if (code == PPC_G_NOEXECUTE) return _switchedSides ? SR_OK_LOST_TURN : SR_OK;

@@ -77,8 +77,9 @@ bool Agent::singleShot()
   Pool::GameShot shot(_ai->computeShot(*gs, noise));
   while (!submitShot(gameid, stateid, shot)) {
     if (shot.decision == Pool::DEC_CONCEDE) throw "Server won't let me concede!";
-    cerr << "Submit shot returned error, re-computing." <<"\n"<<endl;
-    cerr << "isPhysically Possible = " << gs->tableState().isPhysicallyPossible(shot.params)<<"\n"<<endl;
+    cerr << "Submit shot returned error, re-computing." <<endl;
+    cerr << "is Physically Possible = " << gs->tableState().isPhysicallyPossible(shot.params)<<endl;
+    cerr << "is Valid Ball Placement = " << gs->tableState().isValidBallPlacement() << "\n" << endl;
     shot=_ai->reComputeShot();
   }
 

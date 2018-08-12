@@ -19,7 +19,7 @@ $(FASTFIZ_LIB):
 
 $(BIN): $(SRC:.cpp=.o) $(FASTFIZ_LIB) $(CONFIG_LIB) $(AI_LIB)
 	@echo "** Linking '$@' **"
-	$(CC) -o $@ $^ $(LDFLAGS) $(LIBS)
+	$(CC) -g -o $@ $^ $(LDFLAGS) $(LIBS)
 
 depend:	clean
 	make depfiles

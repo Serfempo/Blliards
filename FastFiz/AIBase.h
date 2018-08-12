@@ -41,7 +41,7 @@ namespace Pool {
          *  Generally, you need not re-implement this method in your AI.
          */
         virtual GameShot& computeShot(const GameState &gs, const Pool::Noise* const noise=NULL);
-        
+
         /** Recompute a shot. Called after a shot sent by the AI was deemed physcially impossible or underspecified.
          *  Default implementation retries previous shot again up to MAX_RETRIES times, then concedes the game.
          * 
@@ -112,7 +112,7 @@ namespace Pool {
         
         /** State of the game when AI is needed */
         const GameState *gameState;
-        
+
         /** Noise information */
         const Noise *noise;
         

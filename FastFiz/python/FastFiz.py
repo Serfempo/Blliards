@@ -261,10 +261,7 @@ class Ball(_object):
 
     def getVelocity(self):
         return _FastFiz.Ball_getVelocity(self)
-    
-    #def dist(self,other):
-	#return _FastFiz.Ball_dist(self,other)	
-	
+
     def getSpin(self):
         return _FastFiz.Ball_getSpin(self)
 

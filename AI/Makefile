@@ -14,7 +14,7 @@ install: all
 
 $(LIB_SHARED): $(LIBSRC:.cpp=.o) $(FASTFIZ_LIB) $(CONFIG_LIB)
 	@echo "** Linking '$@' **"
-	$(CC) --shared -o $@ $^ $(LDFLAGS) $(LIBS)
+	$(CC) -g --shared -o $@ $^ $(LDFLAGS) $(LIBS)
 
 $(LIB): $(LIBSRC:.cpp=.o)
 	ar rv $@ $?

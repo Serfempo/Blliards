@@ -8,10 +8,33 @@
 #include <map>
 #include <cstdlib>
 #include <ctime>
+#include <cmath>
 
 using namespace Pool;
 
+/*
+int numLineSphereIntersections(Vector &p1, Vector &p2, Vector &p3, double rad, double& root1, double& root2) {
+     root1 = -1;
+     root2 = -1;
+     Vector l = (p2 - p1).norm();
+     Vector c(p3 - p1);
+     double det = pow(l.dot(c), 2.0) - c.dot(c) + pow(rad, 2.0);
+     if ( Utils::fless(det, 0.0) ) return 0;
+     else if ( Utils::fgreater(det, 0.0) ) {
+       root1 = l.dot(c)-det;
+       root2 = l.dot(c)+det;
+       return 2;
+     }
+     else {
+       root1 = l.dot(c);
+       return 1;
+     }
+   }
+*/
 int main(int argc, char * const argv[]) {
+
+    
+
   // Output version info
   cerr << getFastFizVersion() << endl;
   cerr << getRulesVersion() << endl;
@@ -23,7 +46,39 @@ int main(int argc, char * const argv[]) {
   EightBallState myState(0,0); 
   GameState& st = myState;
   cerr << "Initial racked Game State is: " << st << endl;
-  
+ 
+ 
+  Vector p1(0.0,0.0,1.0);
+  Vector p2(0.0,2.0,1.0);
+  Vector p3(0.0,1.0,1.0);
+
+
+  double root1 = -1;
+  double root2 = -1;
+  double rad = 1.0;
+  Vector t = p2-p1;
+  double m = t.mag();
+  Vector l(t.x/m,t.y/m,t.z/m);  
+  Vector c(p3 - p1);
+  double det = pow(l.dot(c), 2.0) - c.dot(c) + pow(rad, 2.0);
+  if (det < 0.0) {cerr << "No Path Intersections" << endl;}
+  else if (det > 0.0) {
+    root1 = l.dot(c)-det;
+    root2 = l.dot(c)+det;
+    cerr << "Two Path Intersections at " << root1 << " and "<< root2 << endl;
+  } 
+  else {
+    root1 = l.dot(c);
+    cerr << "One Path Intersection at " << root1 << endl;
+  } 
+
+
+  //double rad = 1.0;
+  //double root1,root2; 
+  //int ans = numLineSphereIntersections(p1,p2,p3,rad,root1,root2);
+
+  //cerr << "numLineSphereIntersections = " << ans << endl; 
+
   // Start a log file
   LogWriter lw("example.log",GT_EIGHTBALL,&gn,"Example Agent");
   
